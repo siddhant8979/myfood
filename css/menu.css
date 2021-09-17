@@ -1,0 +1,206 @@
+/* .box {
+    background-image: url(./component/image/menubg.jpg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  } */
+
+
+  
+.d2 a
+{
+    text-decoration: none;
+    color:rgb(199, 193, 193);
+    display:list-item;
+ /* background-color: tomato; */
+ /* border: 1px solid tomato; */
+ text-align: justify;
+ margin-top: 40px;
+ margin-bottom: 50px;
+ margin-left: 80px;
+ font-size: 30px;
+  }
+
+
+.d2
+{   left: 0;
+    top: 0;
+    transition-property:width;
+    transition-duration: 500ms;
+    transition-property:initial;
+    width: 100px;
+    background-color: black;
+    display: none;
+    position:fixed;
+    height: 100%;
+    z-index: 1;
+
+}
+.d2 a:hover{
+ color: white;
+ 
+}
+.d2:hover{
+    transition-timing-function: 5s linear;
+    width: 400px;
+}
+.d1{
+    float: left;
+}
+.d1:hover .d2{
+
+ display: block;
+ 
+ overflow: scroll;
+}
+li.d1
+{
+    display: inline-block;
+
+}
+.button{
+    width: 300px;
+    height: 50px;
+    border: solid 3px white;
+    background-color: black;
+    color: white;
+    margin-left: 75%;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+
+
+
+  @import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+
+.box-with-text {
+  background-image: -webkit-linear-gradient(rgb(241, 230, 74) 50%, white 50%);
+  background-repeat: repeat;
+  background-position: 0 0;
+  background-size: 100% 50px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-animation: stripes 2s linear infinite;
+  animation: stripes 2s linear infinite;
+}
+
+@-webkit-keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+  }
+}
+
+@keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+  }
+}
+/* Other stuff */
+body {
+  overflow: hidden;
+  background: #000;
+  color: #FFF;
+}
+
+.box-with-text {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  white-space: nowrap;
+  text-align: center;
+  text-transform: uppercase;
+  font: bold 10vmax/.8 Open Sans, Impact;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.para{
+    margin-top: 10%;
+    margin-left: 10%;
+    height: 300px;
+    width: 500px;
+    text-align: justify;
+    font-size: 25px;
+    float: left;
+}
+.image1{margin-top: 12%;
+    margin-left: 60%;
+}
+.image1 img{
+    border: solid 5px white;
+}
+.veg{margin-top: 10%;
+    margin-left: 10%;
+    height: 300px;
+    width: 500px;
+    text-align: justify;
+    font-size: 25px;
+    float: left;
+    color: white;
+
+}
+.egg{
+    margin-top: 40%;
+    margin-left: 10%;
+    height: 300px;
+    width: 500px;
+    text-align: justify;
+    font-size: 25px;
+    float: left;
+}
+.non{
+    margin-top: 40%;
+    margin-left: 10%;
+    height: 300px;
+    width: 500px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.button1{
+    width: 300px;
+    height: 50px;
+    border: solid 3px white;
+    background-color: black;
+    color: white;
+    margin-left: 18%;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: white;
+    color: black;
+    
+}
+.fot1{
+    background-color: black;
+    height: 40px;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .footer{
+    position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  }
+  .fot2{
+    background-color: rgb(48, 46, 46);
+    height: 40px;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .fot2 h1{
+  margin: 0px;
+  }
+  .fot1 h1{
+    margin: 0px;
+    }

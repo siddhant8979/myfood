@@ -1,0 +1,179 @@
+body{
+    background-color: blanchedalmond;
+    background-size: cover;
+    
+}
+.mainhead{
+    background-color: black;
+    margin-bottom: -20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}
+.d2 a
+{
+    text-decoration: none;
+    color:rgb(199, 193, 193);
+    display:list-item;
+ /* background-color: tomato; */
+ /* border: 1px solid tomato; */
+ text-align: justify;
+ margin-top: 40px;
+ margin-bottom: 50px;
+ margin-left: 80px;
+ font-size: 30px;
+  }
+
+
+.d2
+{   left: 0;
+    top: 0;
+    transition-property:width;
+    transition-duration: 500ms;
+    transition-property:initial;
+    width: 100px;
+    background-color: black;
+    display: none;
+    position:fixed;
+    height: 100%;
+    z-index: 1;
+
+}
+.d2 a:hover{
+ color: white;
+ 
+}
+.d2:hover{
+    transition-timing-function: 5s linear;
+    width: 400px;
+}
+.d1{
+    float: left;
+}
+.d1:hover .d2{
+
+ display: block;
+ 
+ overflow: scroll;
+}
+li.d1
+{
+    display: inline-block;
+
+}
+.button{
+    width: 300px;
+    height: 50px;
+    border: solid 3px white;
+    background-color: black;
+    color: white;
+    margin-left: 75%;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.fot1{
+    background-color: black;
+    height: 40px;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+  }
+  .footer{
+    position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  }
+  .fot2{
+    background-color: rgb(48, 46, 46);
+    height: 40px;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+  }
+  .fot2 h1{
+  margin: 0px;
+  }
+  .fot1 h1{
+    margin: 0px;
+    }
+
+.fotmain{
+    position: sticky;
+    width: 100%;
+    margin-left: -8px;
+    padding-right: 15px;
+  }
+    .uul{
+      list-style-type: none;
+      padding: 100px;
+      
+   }
+   .uul li{
+       color: white;
+       display: inline-block;
+       padding: 12px;
+   }
+
+   .first{
+       width:900px;
+       min-height: 100px;
+       float: left;
+       margin-top: 150px;
+    
+       
+   }
+   
+   .button1{
+    width: 300px;
+    height: 50px;
+    border: solid 3px white;
+    background-color: black;
+    color: white;
+    margin-left: 0%;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: white;
+    color: black;
+    
+}
+.button2{
+    width: 300px;
+    height: 50px;
+    border: solid 3px white;
+    background-color: black;
+    color: white;
+    margin-left: 15%;
+    font-size: 18px;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: white;
+    color: black;
+    
+}
+.image1{
+    border: solid white 5px;
+    margin-left: 150px;
+    
+}
+.image{
+margin-top: 100px;
+}
+.ulevent {
+    text-decoration: none;
+  }

@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <ul type=none>
+        <li class="d1" style="padding: 5px;"><i class="fa fa-list-ul" style="font-size:44px;color: white;"></i>    
+            <div class="d2">
+            <a href="home.html">HOME</a>
+            <a href="/login.html">LOGIN</a>
+            <a href="menu.html">MENU</a>
+            <a href="about.html">ABOUT</a>
+            <a href="reservaton.html">RESERVATIONS</a>
+            <a href="/health.html">HEALTH $ SAFETY</a>
+            <a href="news.html">NEWS</a>
+            <a href="event.html">EVENTS</a>
+            <a href="/wedding.html">WEDDINGS</a>
+            <a href="/gift.html">GIFT SHOP</a>
+            <a href="/contact.html">CONTACT</a>
+        </div>
+        
+        </li>
+    </ul>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+          <h2 class="active"> Sign In </h2>
+          <!-- <h2 class="inactive underlineHover">Sign Up </h2> -->
+      
+          <!-- Icon -->
+          <div class="fadeIn first">
+            <img src="/component/image/logomy1.png" id="icon" alt="User Icon" />
+          </div>
+      
+          <!-- Login Form -->
+          <form>
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="User Name">
+            <input type="text" id="number" class="fadeIn third" name="login" placeholder="Mobile Number">
+            <input type="text" id="password" class="fadeIn fourth" name="login" placeholder="Password">
+            <input type="submit" onclick="sid()" class="fadeIn fourth" value="Log In">
+          </form>
+      
+          <!-- Remind Passowrd -->
+          <div id="formFooter">
+            <a class="underlineHover" href="#">Forgot Password?</a>
+          </div>
+      
+        </div>
+      </div>
+
+      <script>
+          function sid(){
+              var l=document.getElementById('login').value ;
+              var p=document.getElementById('password').value ;
+              var n=document.getElementById('number').value ;
+              if(l ==''){
+                 alert("please enter user name")
+             }
+             if( n.length<10){
+                 alert("please enter valid number")
+             }
+              if( p.length<10){
+                 alert("please enter strong password")
+             }
+            }
+             
+      </script>
+   
+        
+    <footer class="footer" >
+       <div class="fot1"><h1>FOOD DESTINY RESTAURANT 2021. ALL RIGHTS RESERVED</h1></div> 
+       <div class="fot2"><h1>@POWERED BY SIDDHANT CHAUDHARY</h1></div>
+    </footer>
+</body>
+</html>
